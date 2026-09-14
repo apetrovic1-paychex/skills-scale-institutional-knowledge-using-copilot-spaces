@@ -6,7 +6,7 @@ This README provides a central entry point to the OctoAcme project management do
 
 ## Project Management Process Summary
 
-OctoAcme follows a structured, lifecycle-based approach to project management grounded in five core principles: customer-first prioritization, iterative delivery, clear ownership, data-informed decisions, and psychological safety. The project lifecycle spans five distinct phases—initiation, planning, execution, release, and closure with retrospective—each with defined deliverables and decision gates. Projects are led by a Project Manager (PM) who coordinates delivery and risk management, and a Product Manager (PdM) who defines outcomes and measures success. During **Initiation**, teams validate business need by creating a lightweight One-pager that captures the problem statement, success metrics, stakeholders, timeline, and initial risks. A decision gate ensures stakeholder alignment before proceeding to Planning, where the team breaks work into prioritized backlog items, estimates scope, defines acceptance criteria and a Definition of Done, and identifies cross-team dependencies and risks.
+OctoAcme follows a structured, lifecycle-based approach to project management grounded in five core principles: customer-first prioritization, iterative delivery, clear ownership, data-informed decisions, and psychological safety. The project lifecycle spans five distinct phases—initiation, planning, execution, release, and closure with retrospective—each with defined deliverables and decision gates. Projects are led by a Project Manager (PM) who coordinates delivery and risk management, and a Product Manager (PdM) who defines outcomes and measures success. Developers implement and review features against acceptance criteria, QA validates quality and release readiness, and stakeholders provide ongoing input and approvals at key gates. During **Initiation**, teams validate business need by creating a lightweight One-pager that captures the problem statement, success metrics, stakeholders, timeline, and initial risks. A decision gate ensures stakeholder alignment before proceeding to Planning, where the team breaks work into prioritized backlog items, estimates scope, defines acceptance criteria and a Definition of Done, and identifies cross-team dependencies and risks.
 
 **Execution and Tracking** is driven by a consistent team rhythm: daily standups (15 minutes), weekly delivery syncs, and sprint/milestone-based demos. Work flows through a project board with columns (Backlog, Ready, In Progress, In Review, QA, Done), and Pull Requests are kept small (≤400 lines where possible) with automated testing, linting, and at least one approval required before merge. Quality is enforced through unit tests, integration tests, end-to-end smoke tests, security scanning, and manual QA for feature acceptance. **Risk and Communication** are managed through a Risk Register that tracks impact, probability, owner, and mitigation for each identified risk, reviewed weekly during syncs. Stakeholders receive regular updates via a standardized Weekly Status template covering progress, next steps, risks, and decisions needed. Escalation follows a clear path: team triage → PM → Product Lead → Sponsor, with ad-hoc incident communication for critical issues.
 
@@ -21,7 +21,7 @@ Finally, **Release and Deployment** follows a pre-release checklist ensuring all
 - [OctoAcme — Risk Management & Communication](./octoacme-risks-and-communication.md)
 - [OctoAcme — Release & Deployment Guide](./octoacme-release-and-deployment.md)
 - [OctoAcme — Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
-- [OctoAcme Personas](./octoacme-roles-and-personas.md)
+- [OctoAcme — Roles & Personas](./octoacme-roles-and-personas.md)
 
 ## How to Use These Docs
 
@@ -32,4 +32,4 @@ Finally, **Release and Deployment** follows a pre-release checklist ensuring all
 - **Managing risks and stakeholders?** Consult [Risk Management & Communication](./octoacme-risks-and-communication.md) for escalation paths and status reporting.
 - **Preparing a release?** Follow the [Release & Deployment Guide](./octoacme-release-and-deployment.md) for pre-release checklists and rollback procedures.
 - **Conducting a retrospective?** See [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) to capture learnings and generate action items.
-- **Understanding roles?** Review [OctoAcme Personas](./octoacme-roles-and-personas.md) for detailed role descriptions and responsibilities.
+- **Understanding roles?** Review [OctoAcme — Roles & Personas](./octoacme-roles-and-personas.md) for detailed role descriptions and responsibilities.
